@@ -1,0 +1,12 @@
+main {
+    display: grid;
+    grid-template-columns: var(--square-width) var(--square-width) var(--square-width);
+    justify-content: center;
+}
+
+app-square {
+    height: var(--square-height);
+    width: var(--square-width);
+
+    border: 1px wheat solid;
+}
